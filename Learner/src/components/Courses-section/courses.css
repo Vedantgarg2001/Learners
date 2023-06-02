@@ -1,0 +1,68 @@
+.d{
+  margin-bottom: 40px;
+  background-color: #e6e6e6;
+  
+}
+
+.single__course__item {
+  padding: 15px;
+}
+  
+.course__img img {
+  border-radius: 10px;
+  margin-bottom: 20px;
+  
+}
+.course__img{
+  position: relative;
+  
+}
+
+.enroll a {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: #17bf9e;
+}
+
+.lesson,
+.students,
+.rating {
+  font-size: 0.9rem;
+  color: #0a2b1e;
+  font-weight: 500;
+}
+
+.lesson i,
+.students i,
+.rating i {
+  font-weight: 1400;
+}
+
+.course__title {
+  line-height: 2rem;
+}
+
+.course__top__left h2 {
+  font-weight: 700;
+  text-align: center;
+}
+.popular_free__btn {
+  position: absolute;
+  bottom: 0;
+  right: 20px;
+  z-index: 999999;
+  padding: 4px 25px !important;
+  font-size: 0.8rem;
+} 
+
+.company-section{
+  background: #0d6efd21;
+  padding: 30px;
+}
+.course__top__left{
+  padding: 30px 0 0 0
+}
+.course__top__left p{
+  text-align: center;
+}

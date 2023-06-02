@@ -1,0 +1,30 @@
+.submit-btn button{
+    width: 100%;
+    margin-top: 10px;
+}
+.login-row{
+    padding-top: 10%;
+}
+.signup-header{
+    width: 100%;
+    background: #00000087;
+    padding: 10px;
+    color: #fff;
+}
+.form-section{
+    background: #d3d3d36b;
+    border-radius: 20px;
+}
+form{
+    padding-top: 50px;
+}
+.error-msg{
+    color: red;
+    font-size: 14px;
+}
+@media only screen and (max-width: 767px){
+    .login-row{
+        padding: 10px;
+    }
+}
+

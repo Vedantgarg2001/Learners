@@ -1,0 +1,39 @@
+.newsletter {
+    background: #17bf9e;
+    padding: 60px;
+    border-radius: 15px;
+}
+  
+.newsletter h2 {
+  color: #fff;
+}
+.subscribe input {
+  border: none;
+  outline: none;
+  margin: 0 20px;
+}
+
+.subscribe {
+  background: #fff;
+  height: 45px;
+  width: 45%;
+  margin: auto;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.newsletter .btn-success{
+  height: 45px;
+}
+
+
+@media only screen and (max-width: 991px) {
+  .subscribe {
+    width: 100%;
+  }
+  .newsletter_section{
+    margin-top: 50px;
+  }
+}
+  

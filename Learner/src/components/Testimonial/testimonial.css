@@ -1,0 +1,31 @@
+.testimonial__content h2 {
+  font-weight: 600;
+}
+  
+.testimonial__wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.testimoni_image{
+  width: 80%;
+}
+@media only screen and (max-width: 767px){
+  .testimonial__wrapper{
+    display: block;
+  }
+  .testimoni_image{
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait){
+  .testimonial__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+  }
+  .testimoni_image{
+    width: 100%;
+  }
+}
